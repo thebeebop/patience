@@ -1,0 +1,8 @@
+.important {
+    margin-top: 20px;
+    padding: 20px;
+    height: 150px;
+    width: 100%;
+    background-color: black;
+    color: white
+}

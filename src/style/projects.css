@@ -1,0 +1,290 @@
+@media (min-width: 1000px) { 
+
+  #root {
+    width: 100vw;
+  }
+
+  .app {
+    width: 100%;
+    position: relative;
+    top: 70px;
+    padding: 70px;
+  }
+
+  .introduction-container {
+    height: 500px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr;
+    margin-bottom: 100px;
+    gap: 30px;
+  }
+
+
+.introduction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.introduction-title {
+  text-align: center;
+  font-family: "Butler";
+  font-weight: 800;
+  font-size: 70px;
+}
+
+.intro-main-img {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 450px
+
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  font-family: 'Butler';
+  font-weight: 700;
+  height: 1200px;
+  border-radius: 10px;
+  width: 100%;
+  margin-bottom: 70px;
+  padding: 120px;
+  box-shadow: 3px 3px 10px;
+  color:rgb(107, 106, 106)
+}
+
+.card-title-container {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.project-title {
+  font-size: 60px;
+  color: black;
+}
+
+
+.card-subtitle {
+  width: 100%;
+  text-align: left;
+  font-size: 30px;
+  font-family: 'Lato', sans-serif;
+  color: rgb(0, 0, 0, 0.5);
+  margin-bottom: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/* Tablet */
+@media (min-width: 600px) and (max-width: 1000px) { 
+
+  .app {
+    padding: 50px;
+  }
+
+  .introduction-container {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+  }
+
+
+.introduction {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.introduction-title {
+  font-family: "Butler";
+  font-weight: 800;
+  font-size: 70px;
+}
+
+.intro-main-img {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  font-family: 'Butler';
+  font-weight: 700;
+  height: 800px;
+  border-radius: 10px;
+  width: 100%;
+  margin-bottom: 60px;
+  padding: 80px;
+  box-shadow: 3px 3px 10px;
+  color:rgb(107, 106, 106)
+}
+
+.card-title-container {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.project-title {
+  font-size: 50px;
+  color: black;
+}
+
+
+.card-subtitle {
+  width: 100%;
+  text-align: left;
+  font-size: 25px;
+  font-family: 'Lato', sans-serif;
+  color: rgb(0, 0, 0, 0.5);
+  margin-bottom: 8px;
+}
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* mobile */
+@media (min-width: 300px) and (max-width: 600px) { 
+
+.introduction-container {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.introduction {
+   
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .introduction-title {
+    font-family: "Butler";
+    font-weight: 800;
+    font-size: 50px;
+  }
+
+  .intro-main-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+  }
+
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    font-family: 'Butler';
+    font-weight: 700;
+    height: 500px;
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 60px;
+    padding: 40px;
+    box-shadow: 3px 3px 10px;
+    color:rgb(107, 106, 106)
+  }
+  
+  .card-title-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+
+  .card-subtitle {
+    width: 100%;
+    text-align: left;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    color: rgb(0, 0, 0, 0.5);
+    margin-bottom: 8px;
+  }
+
+  .project-main-imgs {
+    margin-top: 20px;
+    height: 300px;
+    width: 300px;
+  }
+
+  .project-title {
+    font-size: 35px;
+    color: black;
+  }
+
+  .maintenance {
+    height: 100px;
+    width: 100%;
+    font-size: 40px;
+  }
+
+}
