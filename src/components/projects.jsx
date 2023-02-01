@@ -64,32 +64,28 @@ export default function Projects() {
             ></lottie-player>
           </div>
         </div>
+        <div className="cards">
+          {projects.map((project, i) => {
+            return (
+              <Link
+                to={project.path}
+                style={{ textDecoration: "none", color: "black" }}
+                key={i}
+              >
+                <div className="card">
+                  <div className="card-title-container">
+                    <h3 className="card-subtitle">{project.type}</h3>
+                    <h1 className="project-title">{project.name}</h1>
+                  </div>
 
-        {projects.map((project, i) => {
-          return (
-            <Link
-              to={project.path}
-              style={{ textDecoration: "none", color: "black" }}
-              key={i}
-            >
-              <div className="card">
-                <div className="card-title-container">
-                  <h3 className="card-subtitle">{project.type}</h3>
-                  <h1 className="project-title">{project.name}</h1>
+                  <div className="project-main-imgs">
+                    <img src={project.img} height="100%" width="100%" />
+                  </div>
                 </div>
-
-                <div className="project-main-imgs">
-                  <img src={project.img} height="100%" width="100%" />
-                </div>
-                {/* <div className="maintenance">
-                  {project.name === "Northcoder News" ? (
-                    <h2 className="maintenanc-title"> Under Maintenance!</h2>
-                  ) : null}
-                </div> */}
-              </div>
-            </Link>
-          );
-        })}
+              </Link>
+            );
+          })}
+        </div>
       </div>
     </>
   );

@@ -6,9 +6,13 @@
 
   .app {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     position: relative;
     top: 70px;
-    padding: 70px;
+    padding: 50px;
   }
 
   .introduction-container {
@@ -16,8 +20,8 @@
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 1fr;
-    margin-bottom: 100px;
     gap: 30px;
+    margin-bottom: 150px;
   }
 
 
@@ -46,6 +50,17 @@
 
 }
 
+.cards {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  max-width: 1200px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(3, 600px); 
+  gap: 50px;
+}
+
+
 .card {
   display: flex;
   flex-direction: column;
@@ -54,17 +69,16 @@
   text-align: left;
   font-family: 'Butler';
   font-weight: 700;
-  height: 1200px;
-  border-radius: 10px;
+  height: 100%;
+  border-radius: 15px;
   width: 100%;
-  margin-bottom: 70px;
-  padding: 120px;
+  padding: 60px;
   box-shadow: 3px 3px 10px;
   color:rgb(107, 106, 106)
 }
 
 .card-title-container {
-  height: 500px;
+  height: 200px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -73,7 +87,7 @@
 }
 
 .project-title {
-  font-size: 60px;
+  font-size: 40px;
   color: black;
 }
 
@@ -81,12 +95,11 @@
 .card-subtitle {
   width: 100%;
   text-align: left;
-  font-size: 30px;
+  font-size: 20px;
   font-family: 'Lato', sans-serif;
   color: rgb(0, 0, 0, 0.5);
   margin-bottom: 8px;
 }
-
 
 
 

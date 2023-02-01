@@ -97,7 +97,7 @@ export default function Hangman() {
                 src={arrow}
                 height="20px"
                 width="20px"
-                style={{ marginTop: 4, marginLeft: 4 }}
+                className="arrow-button"
               />
             </div>
           </div>

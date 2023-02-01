@@ -29,7 +29,7 @@
         margin-right: 20px;
         margin-bottom: 60px;
         display: grid;
-        grid-template-columns: 30% 70%;
+        grid-template-columns: 40% 60%;
         grid-template-rows: 1fr;
         gap: 40px;
         align-items: center;
@@ -95,10 +95,9 @@
         }
 
         .main-video {
-            max-height: 600px;
-            max-width: 600px;
-            min-height: 500px;
-            min-width: 500px;
+         
+            min-height: 400px;
+            max-width: 500px;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -229,7 +228,8 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 350px;
+        min-height: 250px;
+        min-width: 100%;
         width: 100%
     }
     
