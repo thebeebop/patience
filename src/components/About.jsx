@@ -51,7 +51,7 @@ export default function About() {
             <img src={profilePic} alt="" className="image" />
           </div>
           <h1 className="about-header">
-            I'm a Designer and Software Developer.
+            Designer, developer, and most importantly, dog lover.
           </h1>
         </section>
 
@@ -244,7 +244,7 @@ export default function About() {
                   />
                 </div>
                 <p style={{ width: "100%", textAlign: "center" }}>
-                  I enjoy reading, especially sci-fi.
+                  I enjoy reading.
                 </p>
               </div>
               <div className="vanity-images">
@@ -316,7 +316,7 @@ export default function About() {
           </section>
 
           <section className="books-read-section">
-            <h1 style={{ fontSize: 45, marginBottom: 60 }}>Favourite books:</h1>
+            <h1 style={{ fontSize: 40, marginBottom: 60 }}>Favourite books:</h1>
 
             <div className="books-grid">
               <div className="book-container" id="dune">
