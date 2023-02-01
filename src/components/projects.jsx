@@ -47,7 +47,7 @@ export default function Projects() {
         <div className="introduction-container">
           <div className="introduction">
             <h1 className="introduction-title">Hi! I'm Lewis.</h1>
-            <p className="sub-title">
+            <p className="project-sub-title">
               I'm a Junior Front End Developer with experience in JavaScript
               (ES6), React, HTML & CSS. With a background in Graphic Design, I
               have a keen eye for styling and data visualisation.
