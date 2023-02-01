@@ -7,11 +7,11 @@ import Calculator from "./components/projects/Calculator";
 import Hangman from "./components/projects/Hangman";
 import NorthcodersNews from "./components/projects/NorthcodersNews";
 import SalfordDevils from "./components/projects/SalfordDevils";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Header />
 
       <Routes>
@@ -33,7 +33,7 @@ function App() {
         <Route path="about" element={<About />}></Route>
         <Route path="contact" element={<Contact />}></Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
