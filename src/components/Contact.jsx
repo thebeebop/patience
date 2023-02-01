@@ -17,12 +17,19 @@ export default function Contact() {
 
         <div className="background">
           <div className="grid">
-            <div className="card-small" id="email">
-              <div className="email-logo">
-                <img src={email} height="100%" width="100%" />
+            <a
+              href="mailto: lewis.woods16@outlook.com"
+              style={{ textDecoration: "none", color: "black" }}
+              id="email"
+            >
+              <div className="card-small">
+                <div className="email-logo">
+                  <img src={email} height="100%" width="100%" />
+                </div>
+                <p>lewis.woods16@outlook.com</p>
               </div>
-              <p>lewis.woods16@outlook.com</p>
-            </div>
+            </a>
+
             <div className="card-small" id="phone">
               <div className="phone-logo">
                 <img src={phone} height="100%" width="100%" />
