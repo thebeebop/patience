@@ -34,12 +34,7 @@ export default function WeatherWidget() {
       <div className="mother-container">
         <header className="header">
           <div className="main-image">
-            <img
-              src={main}
-              height="100%"
-              width="100%"
-              alt="repeating video of app in use"
-            />
+            <img src={main} height="100%" width="100%" alt="" />
           </div>
           <div className="title-button-container">
             <div className="title-container">
@@ -126,7 +121,7 @@ export default function WeatherWidget() {
                 src={arrow}
                 height="20px"
                 width="20px"
-                style={{ marginTop: 4, marginLeft: 4 }}
+                className="arrow-button"
               />
             </div>
           </div>

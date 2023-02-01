@@ -100,7 +100,7 @@ export default function Calculator() {
                 src={arrow}
                 height="20px"
                 width="20px"
-                style={{ marginTop: 4, marginLeft: 4 }}
+                className="arrow-button"
               />
             </div>
           </div>
@@ -223,11 +223,12 @@ export default function Calculator() {
           <section className="what-i-learnt">
             <h1 style={{ marginTop: 20, fontSize: 30 }}>What I learnt:</h1>
             <ul className="i-learnt-list">
-              <li>How to manipulate the DOM using JavaScript.</li>
-              <li>How to manage Inputs & Outputs.</li>
-              <li>How to use array methods such as: .filter, .includes etc.</li>
-              <li>How to create responsive designs using flexbox and grids.</li>
-              <li>How to make a responsive design using CSS3.</li>
+              <li>How to plan and make use of a state-component tree.</li>
+              <li>
+                How to handle state and pass props to update state variables.
+              </li>
+              <li>How to use useEffect to update state values in real time.</li>
+              <li>How to better make use of JavaScript’s Math object.</li>
             </ul>
           </section>
           <p
