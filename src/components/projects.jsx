@@ -5,10 +5,15 @@ import hangman from "../images/project-images/hangman.png";
 import calculator from "../images/project-images/calculator.png";
 import northcoders from "../images/project-images/northcoders.png";
 import devil from "../images/project-images/devil.png";
-import Footer from "./footer";
 
 export default function Projects() {
   const projects = [
+    {
+      name: "Salford Red Devils",
+      type: "MOTION DESIGN",
+      img: devil,
+      path: "projects/salford-red-devils",
+    },
     {
       name: "Weather widget",
       type: "WEB APP",
@@ -34,12 +39,7 @@ export default function Projects() {
       img: northcoders,
       path: "",
     },
-    {
-      name: "Salford Red Devils",
-      type: "MOTION DESIGN",
-      img: devil,
-      path: "projects/salford-red-devils",
-    },
+    ,
   ];
   return (
     <>
