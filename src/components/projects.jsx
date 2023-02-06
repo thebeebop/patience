@@ -5,6 +5,7 @@ import hangman from "../images/project-images/hangman.png";
 import calculator from "../images/project-images/calculator.png";
 import northcoders from "../images/project-images/northcoders.png";
 import devil from "../images/project-images/devil.png";
+import { Element, scroller } from "react-scroll";
 
 export default function Projects() {
   const projects = [
@@ -13,24 +14,28 @@ export default function Projects() {
       type: "MOTION DESIGN",
       img: devil,
       path: "projects/salford-red-devils",
+      work: "Client Project",
     },
     {
       name: "Weather widget",
       type: "WEB APP",
       img: weather,
       path: "projects/weather-widget",
+      work: "Independent Project",
     },
     {
       name: "Hangman",
       type: "WEB APP",
       img: hangman,
       path: "projects/hangman",
+      work: "Independent Project",
     },
     {
       name: "Calculator",
       type: "WEB APP",
       img: calculator,
       path: "projects/calculator",
+      work: "Independent Project",
     },
     ,
     {
@@ -38,12 +43,14 @@ export default function Projects() {
       type: "-- UNDER MAINTENANCE --",
       img: northcoders,
       path: "",
+      work: "Course Project",
     },
     ,
   ];
   return (
     <>
-      <div className="app">
+      <Element name="top"></Element>
+      <div className="app-projects">
         <div className="introduction-container">
           <div className="introduction">
             <h1 className="introduction-title">Hi! I'm Lewis.</h1>
@@ -63,6 +70,14 @@ export default function Projects() {
               autoplay
             ></lottie-player>
           </div>
+          <div className="projects-button-container">
+            <Link
+              to="/contact"
+              style={{ textDecoration: "none", color: "black" }}
+            >
+              <button className="contact-me-button">Hire Me</button>
+            </Link>
+          </div>
         </div>
         <div className="cards">
           {projects.map((project, i) => {
@@ -81,11 +96,20 @@ export default function Projects() {
                   <div className="project-main-imgs">
                     <img src={project.img} height="100%" width="100%" />
                   </div>
+                  <p style={{ fontFamily: "Lato" }}>{project.work}</p>
                 </div>
               </Link>
             );
           })}
         </div>
+        <p
+          className="back-to-top"
+          onClick={() => {
+            scroller.scrollTo("top", { smooth: true });
+          }}
+        >
+          Back to Top
+        </p>
       </div>
     </>
   );
