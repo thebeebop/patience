@@ -10,7 +10,6 @@ import github from "../../images/Tech-images/github.jpg";
 import main from "../../images/weather/main-image-two.png";
 import arrow from "../../images/small icons/arrow.png";
 import ui from "../../images/weather/ui.png";
-import trello from "../../images/weather/trello.png";
 import tree from "../../images/weather/tree.png";
 import day from "../../images/weather/milky-blue.png";
 import night from "../../images/weather/milky-purple.jpg";
