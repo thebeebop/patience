@@ -5,25 +5,25 @@
 }
 
 .mother-container {
-  margin-left: 50px;
-  margin-right: 50px;
   position: relative;
   top: 70px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   flex: 1;
-  width: 100vw;
+  width: 100%;
   max-width: 1200px;
-  max-height: 90vh;
+  height: 100vh;
 }
 
 .container-top {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
-  padding: 20px;
+  padding: 50px;
   height: 100%;
+  min-height: 800px;
+  gap: 50px;
 
 }
 
@@ -53,6 +53,12 @@
   margin-bottom: 30px;
   font-size: 60px;
   }
+
+.hide-reading {
+  min-height: 100px;
+  visibility: hidden;
+  display: block;
+}
 
   .brief-history-section {
     padding-left: 20px;
@@ -96,7 +102,7 @@
     display: grid;
     grid-template-rows: 1fr 1fr 1fr ;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 10px;
+    gap: 30px;
   }
   
   .tech-image {
@@ -105,6 +111,14 @@
     width: 100px;
     background-color: brown;
     border-radius: 10px;
+  }
+
+  .about-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-top: 100px;
   }
 
   .vanity-section {
@@ -127,9 +141,9 @@
   }
   
   .vanity-logos {
-    margin-bottom: 10px;
-    height: 60px;
-    width: 60px;
+    margin-bottom: 20px;
+    height: 70px;
+    width: 70px;
   }
   
   .vanity-images {
@@ -232,7 +246,7 @@
 
 
 
-
+/* tablet */
 @media (min-width: 600px) and (max-width: 1000px) {
 
   img {
@@ -242,22 +256,23 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    align-items: center;
     flex: 1;
     min-width: 600px;
-    max-width: 1000px;
-    max-height: 100vh;
-    margin-left: 40px;
-    margin-right: 40px;
+    max-width: 900px;
+    height: 100%;
+    width: 100%;
+    padding: 60px;
+    padding-bottom: 0px;
 }
 
 .container-top {
-  margin-top: 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 20px;
   height: 100%;
+  width: 100%;
 
 }
 
@@ -284,6 +299,15 @@
   }
 
   /* hidden element: */
+
+.visible-element {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction:column;
+  justify-content: space-between;
+}
+
 .brief-history-section {
   padding-left: 20px;
   padding-right: 20px;
@@ -315,7 +339,7 @@
 }
 
 .tech-skills-section {
-  height: 600px;
+  height: 800px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -359,9 +383,9 @@
 }
 
 .vanity-logos {
-  margin-bottom: 10px;
-  height: 60px;
-  width: 60px;
+  margin-bottom: 15px;
+  height: 70px;
+  width: 70px;
 }
 
 .vanity-images {
@@ -380,19 +404,17 @@
 
 .books-read-section {
   width: 100%;
-  height: 1700px;
-  padding-left: 20px;
-  padding-right: 20px;
+  min-height: 1800px;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 50px;
   margin-top: 50px;
+
 }
 
 .books-grid {
-  padding-left: 20px;
-  padding-right: 20px;
+
   display: grid;
   height: 100%;
   width: 100%;
@@ -400,17 +422,16 @@
   grid-template-columns: 1fr 1fr;
   align-items: center;
   justify-items: center;
-  gap: 10px;
+  gap: 30px;
 }
 
-.book-container {
-
-  height: 420px;
-  width: 300px;
+.books {
+  height: 100%;
+  width: 100%;
 }
 
 .books-reading-section {
-  height: 700px;
+  min-height: 700px;
   min-width: 100%;
   padding-left: 20px;
   padding-right: 20px;
@@ -445,6 +466,14 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  }
+
+  .about-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-top: 100px;
   }
 
 
@@ -519,8 +548,8 @@
 
 /* hidden element: */
 .brief-history-section {
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
   margin-top: 100px;
   display: flex;
   flex-direction: column;
@@ -572,6 +601,14 @@
   border-radius: 10px;
 }
 
+.about-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  margin-top: 50px;
+}
+
 .vanity-section {
   display: flex;
   flex-direction: column;
@@ -613,7 +650,7 @@
 
 .books-read-section {
   width: 100%;
-  height: 900px;
+  min-height: 900px;
   padding-left: 20px;
   padding-right: 20px;
   display: flex;
@@ -637,7 +674,7 @@
 }
 
 .books-reading-section {
-  height: 500px;
+  min-height: 600px;
   min-width: 100%;
   padding-left: 20px;
   padding-right: 20px;
@@ -649,10 +686,9 @@
   margin-top: 50px;
 }
 
-.book-container {
-  /* margin-top: 10px;
-  height: 120px;
-  width: 80px; */
+.books {
+  height: 100%;
+  width: 100%;
 }
 
 .book-container-lonely {

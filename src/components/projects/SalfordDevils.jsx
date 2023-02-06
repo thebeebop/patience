@@ -61,7 +61,7 @@ export default function SalfordDevils() {
           <div className="title-container">
             <h1 className="main-title">Salford Red Devils</h1>
             <p className="devils-sub-title">
-              A short 30 second animation created for the Salford Red Devil's
+              A short 25 second animation created for the Salford Red Devil's
               social media platforms to promote the launch of their new logo.
             </p>
             <div className="twitter-container">

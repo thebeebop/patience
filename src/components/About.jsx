@@ -2,6 +2,7 @@ import profilePic from "../images/about/profile pic.jpg";
 import "../style/about.css";
 import { useState, useRef, useEffect } from "react";
 import { Element, scroller } from "react-scroll";
+import { Link } from "react-router-dom";
 import js from "../images/Tech-images/js.jpg";
 import ae from "../images/Tech-images/ae.jpg";
 import ai from "../images/Tech-images/ai.jpg";
@@ -229,6 +230,11 @@ export default function About() {
                 />
               </div>
             </div>
+            <div className="about-button-container">
+              <Link to="/contact">
+                <button className="contact-me-button">Hire Me</button>
+              </Link>
+            </div>
           </section>
 
           <section className="vanity-section">
@@ -319,65 +325,58 @@ export default function About() {
             <h1 style={{ fontSize: 40, marginBottom: 60 }}>Favourite books:</h1>
 
             <div className="books-grid">
-              <div className="book-container" id="dune">
-                <div className="books">
-                  <img
-                    src={dune}
-                    height="100%"
-                    width="100%"
-                    style={{ borderRadius: 15 }}
-                  />
-                </div>
+              <div className="books">
+                <img
+                  src={dune}
+                  height="100%"
+                  width="100%"
+                  style={{ borderRadius: 15 }}
+                />
               </div>
-              <div className="book-container" id="dark tower">
-                <div className="books">
-                  <img
-                    src={darkTower}
-                    height="100%"
-                    width="100%"
-                    style={{ borderRadius: 15 }}
-                  />
-                </div>
+
+              <div className="books">
+                <img
+                  src={darkTower}
+                  height="100%"
+                  width="100%"
+                  style={{ borderRadius: 15 }}
+                />
               </div>
-              <div className="book-container" id="sapiens">
-                <div className="books">
-                  <img
-                    src={sapiens}
-                    height="100%"
-                    width="100%"
-                    style={{ borderRadius: 15 }}
-                  />
-                </div>
+
+              <div className="books">
+                <img
+                  src={sapiens}
+                  height="100%"
+                  width="100%"
+                  style={{ borderRadius: 15 }}
+                />
               </div>
-              <div className="book-container" id="deep work">
-                <div className="books">
-                  <img
-                    src={deepWork}
-                    height="100%"
-                    width="100%"
-                    style={{ borderRadius: 15 }}
-                  />
-                </div>
+
+              <div className="books">
+                <img
+                  src={deepWork}
+                  height="100%"
+                  width="100%"
+                  style={{ borderRadius: 15 }}
+                />
               </div>
-              <div className="book-container" id="scott adams">
-                <div className="books">
-                  <img
-                    src={scottAdams}
-                    height="100%"
-                    width="100%"
-                    style={{ borderRadius: 15 }}
-                  />
-                </div>
+
+              <div className="books">
+                <img
+                  src={scottAdams}
+                  height="100%"
+                  width="100%"
+                  style={{ borderRadius: 15 }}
+                />
               </div>
-              <div className="book-container" id="mandibles">
-                <div className="books">
-                  <img
-                    src={mandibles}
-                    height="100%"
-                    width="100%"
-                    style={{ borderRadius: 15 }}
-                  />
-                </div>
+
+              <div className="books">
+                <img
+                  src={mandibles}
+                  height="100%"
+                  width="100%"
+                  style={{ borderRadius: 15 }}
+                />
               </div>
             </div>
           </section>
