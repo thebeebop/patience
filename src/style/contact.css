@@ -1,17 +1,16 @@
 /* Laptop */
 @media (min-width: 1000px) { 
   .mother-container-about {
-    /* padding: 40px; */
-    max-width: 1200px;
+    width: 100%;
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
-    gap: 50px;
+
   }
 
   .title {
-    padding: 20px;
+    padding: 60px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -33,7 +32,7 @@
   }
 
   .background {
-    padding: 40px;
+    padding: 60px;
     width: 100%;
     background-color: bisque;
     height: 100%;
@@ -48,6 +47,7 @@
     grid-template-rows: 1fr 1fr 1fr;
     height: 300px;
     width: 100%;
+    max-width: 600px;
     gap: 20px;
   }
 
@@ -154,17 +154,21 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+
   }
 
   .title {
-    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
     padding-bottom: 0px;
-    height: 300px;
+    height: 40%;
   }
 
   .contact-title {
-    font-size: 50px;
+    font-size: 60px;
     text-align: center;
   }
 
@@ -177,13 +181,13 @@
   }
 
   .background {
-    padding: 40px;
+    padding: 120px;
     width: 100%;
     background-color: bisque;
-    height: 500px;
+    height: 60%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
   }
 
   .grid {
@@ -192,7 +196,7 @@
     grid-template-rows: 1fr 1fr 1fr;
     height: 300px;
     width: 100%;
-    max-width: 500px;
+    max-width: 600px;
     gap: 20px;
   }
 
@@ -320,10 +324,10 @@
   align-items: center;
   justify-content: center;
   padding: 30px;
-  height: 30%;
+  height: 40%;
 }
 .contact-title {
-  font-size: 30px;
+  font-size: 40px;
   text-align: center;
 }
 
@@ -358,7 +362,7 @@
 
 
   .background {
-    height: 70%;
+    height: 60%;
     padding: 30px;
     width: 100vw;
     background-color: bisque;

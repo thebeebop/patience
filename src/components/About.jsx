@@ -70,7 +70,7 @@ export default function About() {
               src={arrow}
               height="20px"
               width="20px"
-              style={{ marginTop: 4, marginLeft: 4 }}
+              style={{ marginTop: 1, marginLeft: 4 }}
             />
           </div>
         </div>
@@ -232,7 +232,7 @@ export default function About() {
             </div>
             <div className="about-button-container">
               <Link to="/contact">
-                <button className="contact-me-button">Hire Me</button>
+                <button className="contact-me-button">Hire me •</button>
               </Link>
             </div>
           </section>
