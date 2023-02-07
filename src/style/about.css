@@ -666,7 +666,8 @@
   display: grid;
   height: 100%;
   width: 100%;
-  grid-template-rows: 1fr 1fr 1fr ;
+  max-height: 800px;
+  grid-template-rows: repeat(3, minmax(150px 200px) ) ;
   grid-template-columns: 1fr 1fr;
   align-items: center;
   justify-items: center;
@@ -683,7 +684,6 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 50px;
-  margin-top: 50px;
 }
 
 .books {

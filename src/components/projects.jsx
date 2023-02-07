@@ -75,7 +75,7 @@ export default function Projects() {
               to="/contact"
               style={{ textDecoration: "none", color: "black" }}
             >
-              <button className="contact-me-button">Hire Me</button>
+              <button className="contact-me-button">Hire me •</button>
             </Link>
           </div>
         </div>
