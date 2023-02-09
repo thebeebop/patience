@@ -347,11 +347,11 @@ export default function SalfordDevils() {
 
             <section className="result-section">
               <h1 className="section-titles">Result:</h1>
-              <p>
-                A 30 second animation used across all Salford Red Devils media
-                accounts, attracting 50K+ views on their twitter account.
-              </p>
               <ul className="result-list">
+                <li>
+                  A 30 second animation used across all Salford Red Devils media
+                  accounts, attracting 50K+ views on their twitter account.
+                </li>
                 <li>
                   Adobe Illustrator was used to deconstruct and recreate
                   elements of the original club logo.
