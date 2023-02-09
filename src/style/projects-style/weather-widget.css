@@ -2,7 +2,7 @@
 
 
 /* laptop */
-@media (min-width: 1000px) and (max-width: 1440px) { 
+@media (min-width: 1000px) { 
 
     #weather-widget {
         width: 100%;
