@@ -22,8 +22,9 @@
     /* head */
 
     .mother-container {
-        top: 0px;
-        padding: 70px;
+        margin-left: 50px;
+        margin-right: 50px;
+        position: relative;
         padding-bottom: 0px;
         display: flex;
         flex-direction: column;
@@ -37,7 +38,7 @@
         padding-left: 0px;
         padding-right: 0px;
         width: 100%;
-        margin-top: 100px;
+        margin-top: 200px;
         margin-bottom: 60px;
         display: grid;
         grid-template-columns: 50% 50%;

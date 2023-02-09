@@ -21,13 +21,13 @@
    
    #devils-header {
         width: 100%;
-        margin-top: 80px;
+        margin-top: 200px;
      
         margin-bottom: 60px;
         display: grid;
         grid-template-columns: 50% 50%;
         grid-template-rows: 1fr;
-        gap: 40px;
+        gap: 60px;
         align-items: center;
         justify-content: center;
     }
@@ -42,10 +42,10 @@
     
 
     #devils-development {
-        min-height: 10500px;
+        min-height: 11500px;
         margin-top: 100px;
         display: grid;
-        grid-template-rows: 0.1fr 0.1fr 0.1fr 0.3fr 0.3fr 0.5fr 0.1fr 0.3fr 0.5fr 0.1fr 0.5fr 0.1fr 0.5fr 0.1fr 0.5fr 0.1fr 0.5fr  ;
+        grid-template-rows: 0.1fr 0.1fr 0.1fr 0.3fr 0.3fr 0.5fr 0.1fr 0.3fr 0.5fr 0.1fr 0.5fr 0.1fr 0.5fr 0.1fr 0.5fr 0.1fr 0.5fr;
         grid-template-columns: 50% 50%;
         column-gap: 20px;
         row-gap: 100px
