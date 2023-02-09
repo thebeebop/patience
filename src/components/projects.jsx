@@ -1,6 +1,6 @@
 import "../style/projects.css";
 import { Link } from "react-router-dom";
-import Footer from "./Footer";
+import Footer from "./footer";
 import weather from "../images/project-images/weather.png";
 import hangman from "../images/project-images/hangman.png";
 import calculator from "../images/project-images/calculator.png";

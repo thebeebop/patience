@@ -3,7 +3,7 @@ import { useState, useRef, useEffect } from "react";
 import { Element, scroller } from "react-scroll";
 import hangmanImgOne from "./../../images/hangman/hangman-f2.png";
 import hangmanImgTwo from "./../../images/hangman/hangman-f1.png";
-import Footer from "../Footer";
+import Footer from "../footer";
 import css from "../../images/Tech-images/css.jpg";
 import js from "../../images/Tech-images/js.jpg";
 import github from "../../images/Tech-images/github.jpg";

@@ -2,7 +2,7 @@ import "../../style/projects-style/salford-devils.css";
 import "../../style/projects-style/northcoders-news.css";
 import { useState, useRef, useEffect } from "react";
 import { Element, scroller } from "react-scroll";
-import Footer from "../Footer";
+import Footer from "../footer";
 import ae from "../../images/Tech-images/ae.jpg";
 import ai from "../../images/Tech-images/ai.jpg";
 import pr from "../../images/Tech-images/pr.png";

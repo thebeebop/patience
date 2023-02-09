@@ -2,7 +2,7 @@ import "../../style/projects-style/foundation.css";
 import "../../style/projects-style/weather-widget.css";
 import { useState, useRef, useEffect } from "react";
 import { Element, scroller } from "react-scroll";
-import Footer from "../Footer";
+import Footer from "../footer";
 import caluclateTimeImg from "../../images/weather/calculateTime.png";
 import react from "../../images/Tech-images/react.jpg";
 import css from "../../images/Tech-images/css.jpg";

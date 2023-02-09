@@ -1,7 +1,7 @@
 import "../../style/projects-style/calculator.css";
 import { useState, useRef, useEffect } from "react";
 import { Element, scroller } from "react-scroll";
-import Footer from "../Footer";
+import Footer from "../footer";
 import css from "../../images/Tech-images/css.jpg";
 import react from "../../images/Tech-images/react.jpg";
 import github from "../../images/Tech-images/github.jpg";

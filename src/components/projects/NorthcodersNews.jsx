@@ -7,7 +7,7 @@ import reactRouter from "../../images/Tech-images/react-router.png";
 import axios from "../../images/Tech-images/axios.png";
 import github from "../../images/Tech-images/github.jpg";
 import arrow from "../../images/small icons/arrow.png";
-import Footer from "../Footer";
+import Footer from "../footer";
 
 export default function NorthcodersNews() {
   const [bool, setBool] = useState(false);

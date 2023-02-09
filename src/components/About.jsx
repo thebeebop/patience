@@ -2,7 +2,7 @@ import profilePic from "../images/about/profile pic.jpg";
 import "../style/about.css";
 import { useState, useRef, useEffect } from "react";
 import { Element, scroller } from "react-scroll";
-import Footer from "./Footer";
+import Footer from "./footer";
 import { Link } from "react-router-dom";
 import js from "../images/Tech-images/js.jpg";
 import ae from "../images/Tech-images/ae.jpg";
