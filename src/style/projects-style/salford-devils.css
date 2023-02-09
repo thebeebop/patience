@@ -1,6 +1,16 @@
 
 /* desktop */
-@media (min-width: 1000px) { 
+@media (min-width: 1000px) {
+    
+    #salford-red-devils {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        flex: 1;
+    }
     img {
         border-radius: 20px;
     }
@@ -8,28 +18,14 @@
         border-radius: 15px;
     }
 
-    .mother-container {
-        margin-left: 50px;
-        margin-right: 50px;
-        position: relative;
-        top:70px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        flex: 1;
-        width: 100vw;
-        max-width: 1200px;
-        max-height: 90vh;
-    }
-
+   
    #devils-header {
         width: 100%;
         margin-top: 80px;
-        margin-left: 20px;
-        margin-right: 20px;
+     
         margin-bottom: 60px;
         display: grid;
-        grid-template-columns: 40% 60%;
+        grid-template-columns: 50% 50%;
         grid-template-rows: 1fr;
         gap: 40px;
         align-items: center;
@@ -46,7 +42,7 @@
     
 
     #devils-development {
-        height: 12000px;
+        min-height: 10500px;
         margin-top: 100px;
         display: grid;
         grid-template-rows: 0.1fr 0.1fr 0.1fr 0.3fr 0.3fr 0.5fr 0.1fr 0.3fr 0.5fr 0.1fr 0.5fr 0.1fr 0.5fr 0.1fr 0.5fr 0.1fr 0.5fr  ;
@@ -113,14 +109,21 @@
     }
 
 /* tablet */
-@media (min-width: 500px) and (max-width: 1000px) { 
+@media (min-width: 600px) and (max-width: 1000px) {
+    
+    #salford-red-devils {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex: 1;
+    }
 
-
-    a {
+    #twitter-button {
         display: flex;
         justify-content: flex-start;
     }
-
 
     img {
         border-radius: 20px;
@@ -229,7 +232,15 @@
 
 
 /* mobile */
-@media (min-width: 360px) and (max-width: 500px) {
+@media (min-width: 300px) and (max-width: 600px) {
+
+    #salford-red-devils {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex: 1;
+    }
 
     .main-video {
         background-color: black;
@@ -254,6 +265,7 @@
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
         gap: 10px;
+        margin-bottom: 80px;
     }
 
     #devils-development {

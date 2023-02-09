@@ -15,6 +15,21 @@ h1 {
   font-family: 'Butler';
 }
 
+.list {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  color: black;
+  list-style:disc;
+  flex: 1;
+  margin-bottom: 20px;
+}
+
+.list li {
+  margin-bottom: 8px;
+  font-weight: 400;
+}
+
 @media (min-width: 1000px) { 
   p {
     font-size: 20px;

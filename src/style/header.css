@@ -10,7 +10,7 @@
     ul {
         height: 100%;
         font-family: Lato, sans-serif;
-        font-weight: 200;
+        font-weight: 400;
         list-style: none;
         display: flex;
         justify-content: space-evenly;
@@ -36,7 +36,7 @@
     ul {
         height: 100%;
         font-family: Lato, sans-serif;
-        font-weight: 200;
+        font-weight: 400;
         list-style: none;
         display: flex;
         justify-content: space-evenly;
@@ -48,10 +48,12 @@
 
 }
 
-@media (min-width: 360px) and (max-width: 600px) {
+@media (min-width: 280px) and (max-width: 600px) {
     nav {
         height: 70px;
-        width: 100%
+        width: 100%;
+        background-color: black;
+        padding: 10px;
     }
     
     ul {
