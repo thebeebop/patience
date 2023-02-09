@@ -271,7 +271,7 @@
   img {
     border-radius: 20px;
 }
-  .mother-container {
+  .about-mother-container {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -538,6 +538,15 @@
     flex-direction: column;
     justify-content: space-between;
     flex: 1;
+  }
+
+  .about-mother-container {
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+
 }
 
   
@@ -545,10 +554,11 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
   padding: 20px;
   padding-bottom: 0px;
   height: 100%;
+  min-height: 500px;
+  max-height: 700px;
 
 }
 
@@ -570,7 +580,7 @@
 }
 
 .about-header {
-  min-height: 350px;
+  min-height: 300px;
   max-width: 300px;
   text-align: left;
   margin-top: 20px;
