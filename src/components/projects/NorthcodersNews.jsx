@@ -103,6 +103,9 @@ export default function NorthcodersNews() {
             <div className="reading-button-container">
               <p className="reading-button">! Under Maintenance</p>
               <img
+                onClick={() => {
+                  setBool(!bool);
+                }}
                 src={arrow}
                 height="20px"
                 width="20px"

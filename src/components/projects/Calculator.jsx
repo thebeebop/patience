@@ -102,6 +102,9 @@ export default function Calculator() {
                   Continue Reading
                 </p>
                 <img
+                  onClick={() => {
+                    setBool(!bool);
+                  }}
                   src={arrow}
                   height="20px"
                   width="20px"

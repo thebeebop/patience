@@ -69,6 +69,9 @@ export default function About() {
                 Continue Reading
               </p>
               <img
+                onClick={() => {
+                  setBool(!bool);
+                }}
                 src={arrow}
                 height="20px"
                 width="20px"
