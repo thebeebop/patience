@@ -1,5 +1,6 @@
 import "../style/projects.css";
 import { Link } from "react-router-dom";
+import Footer from "./Footer";
 import weather from "../images/project-images/weather.png";
 import hangman from "../images/project-images/hangman.png";
 import calculator from "../images/project-images/calculator.png";
@@ -75,7 +76,9 @@ export default function Projects() {
               to="/contact"
               style={{ textDecoration: "none", color: "black" }}
             >
-              <button className="contact-me-button">Hire me •</button>
+              <button id="projects-button" className="contact-me-button">
+                Hire me •
+              </button>
             </Link>
           </div>
         </div>
@@ -111,6 +114,7 @@ export default function Projects() {
           Back to Top
         </p>
       </div>
+      <Footer />
     </>
   );
 }

@@ -7,13 +7,12 @@ import Calculator from "./components/projects/Calculator";
 import Hangman from "./components/projects/Hangman";
 import NorthcodersNews from "./components/projects/NorthcodersNews";
 import SalfordDevils from "./components/projects/SalfordDevils";
-import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
+import { Routes, Route, HashRouter } from "react-router-dom";
 
 function App() {
   return (
     <HashRouter>
       <Header />
-
       <Routes>
         <Route path="/" element={<Projects />}></Route>
         <Route

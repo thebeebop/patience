@@ -7,6 +7,7 @@ import reactRouter from "../../images/Tech-images/react-router.png";
 import axios from "../../images/Tech-images/axios.png";
 import github from "../../images/Tech-images/github.jpg";
 import arrow from "../../images/small icons/arrow.png";
+import Footer from "../Footer";
 
 export default function NorthcodersNews() {
   const [bool, setBool] = useState(false);
@@ -208,6 +209,7 @@ export default function NorthcodersNews() {
               Back to Top
             </p>
           </section>
+          <Footer />
         </div>
       </div>
     </>
