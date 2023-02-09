@@ -48,7 +48,7 @@ export default function About() {
     <>
       <article id="about">
         <Element name="top"></Element>
-        <div className="mother-container">
+        <div className="about-mother-container">
           <section className="container-top">
             <div className="profile-pic">
               <img src={profilePic} alt="" className="image" />

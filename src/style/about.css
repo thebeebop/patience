@@ -15,7 +15,7 @@
     border-radius: 20px;
 }
 
-.mother-container {
+.about-mother-container {
   position: relative;
   top: 70px;
   display: flex;
@@ -23,7 +23,7 @@
   justify-content: space-between;
   flex: 1;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1000px;
   height: 100vh;
 }
 
@@ -31,7 +31,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
-  padding: 50px;
   height: 100%;
   min-height: 800px;
   gap: 50px;
