@@ -10,6 +10,17 @@ export default function Contact() {
       <div className="mother-container-about">
         <div className="title">
           <h1 className="contact-title">Thanks for stopping by!</h1>
+          <div className="contact-main-img">
+            <lottie-player
+              src="https://lottie.host/f4b731ca-fe99-42d0-84d2-13f1a66f4f52/4qFowRfMav.json"
+              background="transparent"
+              speed="1"
+              height="100%"
+              width="100%"
+              loop
+              autoplay
+            ></lottie-player>
+          </div>
           <h2 className="contact-sub-title">
             If you are interested in working with me, you can contact me via:
           </h2>
