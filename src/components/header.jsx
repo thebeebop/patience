@@ -27,12 +27,14 @@ export default function Header() {
               <p>Contact</p>
             </Link>
           </li>
-          <li>
-            <a href="https://twitter.com/LewisWoods0" target="blank">
-              <img src={twitter} height="23px" width="23px" />
-            </a>
-          </li>
         </ul>
+        <a
+          href="https://twitter.com/LewisWoods0"
+          target="blank"
+          id="twitter-icon"
+        >
+          <img src={twitter} height="23px" width="23px" />
+        </a>
       </nav>
     </>
   );
