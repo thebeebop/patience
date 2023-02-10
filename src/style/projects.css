@@ -14,14 +14,14 @@
     min-height: 3300px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding-left: 50px;
     padding-right: 50px;
   }
 
   .introduction-container {
-    min-height: 700px;
+    min-height: 600px;
     width: 100%;
     max-width: 1200px;
     display: grid;
@@ -29,7 +29,6 @@
     grid-template-columns: 50% 50%;
     grid-template-rows: 100%;
     gap: 30px;
-    margin-bottom: 100px;
 
   }
 
