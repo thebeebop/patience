@@ -78,6 +78,12 @@
 }
 
 @media (min-width: 300px) and (max-width: 600px) {
+
+
+    #twitter-icon {
+        max-width: 50px;
+        margin-left: 10px;
+    }
     nav {
         display: flex;
         justify-content: space-between;
