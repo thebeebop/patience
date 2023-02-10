@@ -337,6 +337,7 @@
     align-items: center;
     min-height: 100px;
     min-width: 200px;
+    max-height: 200px;
   }
 
 .mother-container-about {
@@ -352,7 +353,7 @@
   align-items: center;
   justify-content: space-around;
   padding: 30px;
-  height: 50%;
+  height: 60%;
 }
 .contact-title {
   display: flex;
@@ -394,7 +395,7 @@
 
 
   .background {
-    height: 50%;
+    height: 40%;
     padding: 30px;
     width: 100vw;
     background-color: bisque;
