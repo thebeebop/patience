@@ -15,7 +15,7 @@
             justify-content: space-between;
             align-items: center;
             width: 100%;
-            min-height: 550px;
+            min-height: 500px;
             background-color: black;
             padding: 60px;
             
@@ -47,6 +47,8 @@
             font-weight: 400;
             text-align: center;
             color: white;
+            max-width: 350px;
+
     
     
         }
@@ -254,6 +256,7 @@
         height: 20px;
         color: rgb(255, 255, 255, 0.5);
         font-size: 2.5vw;
+        
 
     }
 

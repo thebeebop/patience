@@ -1,7 +1,7 @@
 import "../style/footer.css";
 import linkedin from "../images/social-icons/linkedin.png";
 import twitter from "../images/social-icons/twitter.png";
-import github from "../images/Tech-images/github.jpg";
+import github from "../images/social-icons/github.png";
 
 export default function Footer() {
   return (
@@ -31,12 +31,22 @@ export default function Footer() {
                 href="https://www.linkedin.com/in/lewis-woods-240046191/"
                 target="blank"
               >
-                <img src={linkedin} height="100%" width="100%" />
+                <img
+                  src={linkedin}
+                  height="100%"
+                  width="100%"
+                  style={{ opacity: "0.6" }}
+                />
               </a>
             </div>
             <div className="footer-logos">
               <a href="https://twitter.com/LewisWoods0" target="blank">
-                <img src={twitter} height="100%" width="100%" />
+                <img
+                  src={twitter}
+                  height="100%"
+                  width="100%"
+                  style={{ opacity: "0.6" }}
+                />
               </a>
             </div>
             <div className="footer-logos">
@@ -45,7 +55,12 @@ export default function Footer() {
                 href="https://github.com/thebeebop"
                 target="blank"
               >
-                <img src={github} height="100%" width="100%" />
+                <img
+                  src={github}
+                  height="100%"
+                  width="100%"
+                  style={{ opacity: "0.6" }}
+                />
               </a>
             </div>
           </div>
