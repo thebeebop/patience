@@ -30,13 +30,13 @@
   }
 
   .contact-title {
-    font-size: 3.5vw;
+    font-size: min(3.5vw, 60px);
     text-align: center;
   }
 
   .contact-sub-title {
     margin-top: 40px;
-    font-size: 2vw;
+    font-size: min(2vw, 25px);
     text-align: center;
     color: rgb(0, 0, 0,0.5);
 
