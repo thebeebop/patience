@@ -1,5 +1,27 @@
 @media (min-width: 1000px) { 
 
+  @keyframes fade-in-slide-one {
+    from {
+      opacity: 0;
+      transform: translateX(-100px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes fade-in-slide-two {
+    from {
+      opacity: 0;
+      transform: translateX(100px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
 
   #about {
     width: 100%;
@@ -46,12 +68,14 @@
   height: 100%;
   grid-row: 1 / 2;
   grid-column: 2 /3 ;
+  animation: fade-in-slide-two 0.5s ease-in-out;
 }
 
 .image {
   border-radius: 10px;
   height: 450px;
   width: 450px;
+
 }
 
 .about-header {
@@ -62,6 +86,7 @@
   margin-top: 30px;
   margin-bottom: 30px;
   font-size: 60px;
+  animation: fade-in-slide-one 0.5s ease-in-out;
   }
 
 .hide-reading {
@@ -259,6 +284,17 @@
 /* tablet */
 @media (min-width: 600px) and (max-width: 1000px) {
 
+  @keyframes fade-in-slide {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
   #about {
     width: 100%;
     height: fit-content;
@@ -301,6 +337,7 @@
   max-height: 600px;
   grid-row: 1 / 2;
   grid-column: 2 /3 ;
+  animation: fade-in-slide 0.5s ease-in-out;
 }
 
 .image {
@@ -315,6 +352,7 @@
   margin-top: 30px;
   margin-bottom: 30px;
   font-size: 60px;
+  animation: fade-in-slide 0.6s ease-in-out;
   }
 
   /* hidden element: */
@@ -532,6 +570,19 @@
 /* mobile */
 @media (min-width: 300px) and (max-width: 600px) {
 
+  @keyframes fade-in-slide-about {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+
+
   #about {
     width: 100%;
     display: flex;
@@ -567,6 +618,7 @@
 }
 
 .profile-pic {
+  animation: fade-in-slide-about 0.5s ease-in-out;
   border-radius: 10px;
   min-height: 300px;
   max-height: 400px;
@@ -580,6 +632,7 @@
 }
 
 .about-header {
+  animation: fade-in-slide-about 0.6s ease-in-out;
   min-height: 300px;
   max-width: 300px;
   text-align: left;

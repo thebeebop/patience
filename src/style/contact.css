@@ -1,6 +1,28 @@
 /* Laptop */
 @media (min-width: 1000px) { 
 
+  @keyframes fade-in-slide-one {
+    from {
+      opacity: 0;
+      transform: translateX(-100px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes fade-in-slide-two {
+    from {
+      opacity: 0;
+      transform: translateX(100px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
 
   .contact-main-img {
     display: flex;
@@ -9,6 +31,7 @@
     min-height: 100px;
     min-width: 200px;
     max-height: 200px;
+    animation: fade-in-slide-one 0.5s ease-in-out;
   }
 
   .mother-container-about {
@@ -32,6 +55,7 @@
   .contact-title {
     font-size: min(3.5vw, 60px);
     text-align: center;
+    animation: fade-in-slide-one 0.5s ease-in-out;
   }
 
   .contact-sub-title {
@@ -39,6 +63,7 @@
     font-size: min(2vw, 25px);
     text-align: center;
     color: rgb(0, 0, 0,0.5);
+    animation: fade-in-slide-one 0.5s ease-in-out;
 
   }
 
@@ -60,6 +85,7 @@
     width: 100%;
     max-width: 600px;
     gap: 20px;
+    animation: fade-in-slide-two 0.5s ease-in-out;
   }
 
   #email {
@@ -160,6 +186,29 @@
 /* Tablet */
 @media (min-width: 600px) and (max-width: 1000px) {
 
+  @keyframes fade-in-slide {
+    from {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes fade-in-slide-Y {
+    from {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+
   .contact-main-img {
     display: flex;
     justify-content: center;
@@ -167,6 +216,7 @@
     min-height: 100px;
     min-width: 200px;
     max-height: 200px;
+    animation: fade-in-slide 0.6s ease-in-out;
   }
 
   .mother-container-about {
@@ -189,6 +239,7 @@
   .contact-title {
     font-size: 7vw;
     text-align: center;
+    animation: fade-in-slide 0.5s ease-in-out;
   }
 
   .contact-sub-title {
@@ -196,6 +247,7 @@
     font-size: 3.5vw;
     text-align: center;
     color: rgb(0, 0, 0,0.5);
+    animation: fade-in-slide 0.7s ease-in-out;
 
   }
 
@@ -218,6 +270,7 @@
     width: 100%;
     max-width: 600px;
     gap: 20px;
+    animation: fade-in-slide-Y 0.7s ease-in-out;
   }
 
   #email {
@@ -327,6 +380,28 @@
 /* Mobile */
 @media (min-width: 300px) and (max-width: 600px) {
 
+  @keyframes fade-in-slide {
+    from {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes fade-in-slide-Y {
+    from {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
 
   #root {
     height: 100vh;
@@ -343,6 +418,7 @@
     min-height: 100px;
     min-width: 200px;
     max-height: 100px;
+    animation: fade-in-slide 0.6s ease-in-out;
   }
 
 .mother-container-about {
@@ -367,6 +443,7 @@
   font-size: 11vw;
   text-align: center;
   min-height: 120px;
+  animation: fade-in-slide 0.5s ease-in-out;
 }
 
 .contact-sub-title {
@@ -374,6 +451,7 @@
   font-size: 20px;
   text-align: center;
   color: rgb(0, 0, 0,0.5);
+  animation: fade-in-slide 0.7s ease-in-out;
 
 }
 
@@ -417,6 +495,7 @@
     height: 250px;
     width: 100%;
     gap: 20px;
+    animation: fade-in-slide-Y 0.7s ease-in-out;
   }
 
   #email {
