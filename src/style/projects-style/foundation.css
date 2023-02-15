@@ -195,7 +195,15 @@
 
     .reading-button-container {
         display: flex;
+        transition: transform 0.1s ease-in-out;
      }
+
+
+    
+
+  .reading-button-container:hover {
+        transform: scale(1.2);
+    }
 
     .hide-reading {
 
@@ -437,6 +445,12 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        transition: transform 0.1s ease-in-out;
+    }
+
+   
+  .back-to-top:hover {
+        transform: scale(1.3);
     }
     
     
