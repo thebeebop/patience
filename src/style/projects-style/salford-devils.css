@@ -1,3 +1,12 @@
+.twitter-container {
+    transition: transform 0.2s ease-in-out;
+}
+
+.twitter-container:hover {
+    transform: scale(1.05);
+}
+
+
 
 /* desktop */
 @media (min-width: 1000px) {
