@@ -130,6 +130,12 @@ border-radius: 15px;
 color: white;
 background-color: black;
 border: 0;
+transition: transform 0.2s ease-in-out;
+}
+
+.contact-me-button:hover {
+  transform: scale(1.1);
+
 }
 
 .cards {
