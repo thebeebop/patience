@@ -1,4 +1,27 @@
 
+    .footer-button {
+        font-size: 15px;
+        border-radius: 5px;
+        padding: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color:rgb(88, 17, 219);
+        border: 0;
+        color: white;
+        margin-bottom: 15px;
+        min-width: 100px;
+        min-height: 40px;
+        transition: transform 0.2s ease-in-out;
+
+    }
+
+    
+
+
+.footer-button:hover {
+  transform: scale(1.1);
+
+}
 
 
 @media (min-width: 1000px) { 
@@ -285,8 +308,17 @@
         margin-bottom: 15px;
         min-width: 100px;
         min-height: 40px;
+        transition: transform 0.2s ease-in-out;
 
     }
+
+    
+
+
+.footer-button:hover {
+  transform: scale(1.1);
+
+}
 
     .footer-p-container {
         min-height: 80px;

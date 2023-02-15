@@ -1,7 +1,15 @@
 @media (min-width: 1000px) { 
+
+
+
     
     #twitter-icon {
         max-width: 50px;
+        transition: transform 0.1s ease-in-out;
+    }
+
+    #twitter-icon:hover {
+        transform: scale(1.4);
     }
 
 
@@ -30,7 +38,17 @@
         width: 100%;
         min-width: 300px;
         max-width: 400px;
+
     }
+    .nav-bar li {
+        transition: transform 0.1s ease-in-out;
+    }
+
+    .nav-bar li:hover {
+        transform: scale(1.2); 
+     }
+
+   
 
 }
 
