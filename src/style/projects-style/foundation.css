@@ -1,4 +1,19 @@
+.back-to-top {
+    transition: transform 0.1s ease-in-out;
+}
 
+
+.back-to-top:hover {
+    transform: scale(1.2);
+}
+
+.reading-button-container {
+    transition: transform 0.1s ease-in-out;
+ }
+
+.reading-button-container:hover {
+    transform: scale(1.2);
+}
 
 
 /* Laptop */
