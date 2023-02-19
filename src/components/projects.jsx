@@ -11,13 +11,6 @@ import { Element, scroller } from "react-scroll";
 export default function Projects() {
   const projects = [
     {
-      name: "Salford Red Devils",
-      type: "MOTION DESIGN",
-      img: devil,
-      path: "projects/salford-red-devils",
-      work: "Client Project",
-    },
-    {
       name: "Weather widget",
       type: "WEB APP",
       img: weather,
@@ -38,7 +31,13 @@ export default function Projects() {
       path: "projects/calculator",
       work: "Independent Project",
     },
-    ,
+    {
+      name: "Salford Red Devils",
+      type: "MOTION DESIGN",
+      img: devil,
+      path: "projects/salford-red-devils",
+      work: "Client Project",
+    },
     {
       name: "Northcoders News",
       type: "-- UNDER MAINTENANCE --",
