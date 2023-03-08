@@ -26,6 +26,13 @@ export default function Projects() {
       work: "Independent Project",
     },
     {
+      name: "Northcoders News",
+      type: "WEB APP",
+      img: northcoders,
+      path: "projects/northcoders-news",
+      work: "Bootcamp Project",
+    },
+    {
       name: "Hangman",
       type: "WEB APP",
       img: hangman,
@@ -38,13 +45,6 @@ export default function Projects() {
       img: calculator,
       path: "projects/calculator",
       work: "Independent Project",
-    },
-    {
-      name: "Northcoders News",
-      type: "-- UNDER MAINTENANCE --",
-      img: northcoders,
-      path: "",
-      work: "Course Project",
     },
 
     {

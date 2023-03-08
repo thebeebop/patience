@@ -8,6 +8,7 @@ import axios from "../../images/Tech-images/axios.png";
 import github from "../../images/Tech-images/github.jpg";
 import arrow from "../../images/small icons/arrow.png";
 import Footer from "../footer";
+import northcoders from "../../images/project-images/northcoders.png";
 
 export default function NorthcodersNews() {
   const [bool, setBool] = useState(false);
@@ -27,17 +28,19 @@ export default function NorthcodersNews() {
       <Element name="top"></Element>
       <div className="mother-container">
         <header className="header">
-          <div className="main-image">
-            <img height="100%" alt="repeating video of app in use" />
-          </div>
-          <div className="title-container">
-            <h1 className="main-title">Northcoders News</h1>
-            <p>
-              A fully responsive web app built with React during the
-              Northcoders' front-end project phase.
-            </p>
+          <div className="main-image-container">
+            <div className="main-image">
+              <img src={northcoders} height="100%" width="100%" alt="" />
+            </div>
           </div>
           <div className="title-button-container">
+            <div className="title-container">
+              <h1 className="main-title">Northcoders News</h1>
+              <p className="sub-title">
+                A fully responsive web app built with React during the
+                Northcoders' front-end project phase.
+              </p>
+            </div>
             <div className="button-container">
               <div className="github-container">
                 <a href="https://github.com/thebeebop/nc-news" target="blank">
@@ -49,16 +52,10 @@ export default function NorthcodersNews() {
                   />
                 </a>
               </div>
+              <a href="https://the-daily-dose-nc.netlify.app/" target="blank">
+                <button className="button">View App</button>
+              </a>
             </div>
-          </div>
-
-          <div className="important">
-            <h2>PLEASE NOTE:</h2>
-            <p>
-              As of 28/11/22 Heroku's free dynos, free Heroku Postgres and free
-              Heroku Data was removed. As this app's API depended on this
-              service, this web app will not be available for the moment.
-            </p>
           </div>
         </header>
         <div className="container">
