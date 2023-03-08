@@ -1,5 +1,6 @@
 .back-to-top {
     transition: transform 0.1s ease-in-out;
+    cursor: pointer;
 }
 
 

@@ -6,10 +6,18 @@ import hangman from "../images/project-images/hangman.png";
 import calculator from "../images/project-images/calculator.png";
 import northcoders from "../images/project-images/northcoders.png";
 import devil from "../images/project-images/devil.png";
+import chitChat from "../images/project-images/chitchat.png";
 import { Element, scroller } from "react-scroll";
 
 export default function Projects() {
   const projects = [
+    {
+      name: "ChitChat",
+      type: "-- IN PROGRESS --",
+      img: chitChat,
+      path: "",
+      work: "Independent Project",
+    },
     {
       name: "Weather widget",
       type: "WEB APP",
@@ -32,18 +40,19 @@ export default function Projects() {
       work: "Independent Project",
     },
     {
-      name: "Salford Red Devils",
-      type: "MOTION DESIGN",
-      img: devil,
-      path: "projects/salford-red-devils",
-      work: "Client Project",
-    },
-    {
       name: "Northcoders News",
       type: "-- UNDER MAINTENANCE --",
       img: northcoders,
       path: "",
       work: "Course Project",
+    },
+
+    {
+      name: "Salford Red Devils",
+      type: "MOTION DESIGN",
+      img: devil,
+      path: "projects/salford-red-devils",
+      work: "Client Project",
     },
     ,
   ];
@@ -76,7 +85,7 @@ export default function Projects() {
               style={{ textDecoration: "none", color: "black" }}
             >
               <button id="projects-button" className="contact-me-button">
-                Hire me •
+                Hire me
               </button>
             </Link>
           </div>
