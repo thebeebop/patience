@@ -13,7 +13,7 @@ export default function Projects() {
   const projects = [
     {
       name: "ChitChat",
-      type: "-- IN PROGRESS --",
+      type: "-- IN DEVELOPMENT --",
       img: chitChat,
       path: "",
       work: "Independent Project",
