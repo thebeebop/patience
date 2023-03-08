@@ -9,6 +9,7 @@
 }
 
 .reading-button-container {
+    cursor: pointer;
     transition: transform 0.1s ease-in-out;
  }
 
